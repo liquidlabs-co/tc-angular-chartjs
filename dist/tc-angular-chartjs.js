@@ -1,5 +1,5 @@
 /**
- * tc-angular-chartjs - v1.0.12 - 2015-07-08
+ * tc-angular-chartjs - v1.0.12 - 2015-12-16
  * Copyright (c) 2015 Carl Craig <carlcraig.threeceestudios@gmail.com>
  * Dual licensed with the Apache-2.0 or MIT license.
  */
@@ -95,6 +95,7 @@
                             $scope.chart = chartObj;
                         }
                         chartObj.resize();
+                        chartObj.render();
                     }
                 }, true);
             }

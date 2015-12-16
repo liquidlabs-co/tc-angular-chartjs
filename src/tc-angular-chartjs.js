@@ -119,6 +119,7 @@
                 $scope.chart = chartObj;
               }
               chartObj.resize();
+              chartObj.render();
             }
 
           },
